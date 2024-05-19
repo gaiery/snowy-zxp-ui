@@ -1,0 +1,32 @@
+.setup_angle{
+    width: 200px;
+    height: 200px;
+    border: 20px solid #4d77eb71;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    >.container{
+        pointer-events: none;
+        height: 205px;
+        width: fit-content;
+        padding: 5px 0;
+        box-sizing: border-box;
+        >.point{
+            width: 15px;
+            height: 15px;
+            background-color: #1410dd;
+            border-radius: 50px;
+        }
+    }
+    >.content{
+        position:absolute;
+        font-size: 16px;
+        color: #5b748e;
+        font-weight: bold;
+        pointer-events: none;
+    }
+}

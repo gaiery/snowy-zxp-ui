@@ -5,21 +5,32 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "element-ui": "^2.15.14",
+    "vue": "^2.6.14",
+    "vue-cropper": "^0.6.5"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
-    "@vue/cli-plugin-babel": "~5.0.0",
-    "@vue/cli-plugin-eslint": "~5.0.0",
-    "@vue/cli-service": "~5.0.0",
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-plugin-eslint": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
     "eslint": "^7.32.0",
     "eslint-plugin-vue": "^8.0.3",
-    "vue-template-compiler": "^2.6.14"
+    "node-sass": "^4.14.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.3.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14",
+    "vuepress": "^1.9.10",
+    "webpack-cli": "^4.9.2"
   },
   "eslintConfig": {
     "root": true,
@@ -39,5 +50,13 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "## Project setup ``` npm install ```",
+  "main": "babel.config.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "author": "",
+  "license": "ISC"
 }

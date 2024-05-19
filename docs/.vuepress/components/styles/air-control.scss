@@ -1,0 +1,65 @@
+#airPanel{
+    width: 275px;
+    height: 275px;
+    border-radius: 50%;
+    display: grid;
+    grid-template-areas:
+        "a b c"
+        "d e f"
+        "g h i";
+    background: url('../images/ic_add_selected@2x.png') no-repeat;
+    background-size: 100% 100%;
+    grid-template-columns: 92px 91px 91px;
+    grid-template-rows: 91px 91px 91px;
+}
+#airPanel div {
+    cursor: pointer;
+    color: #B1D0FF;
+    font-size: 16px;
+    position: relative;
+}
+#airPanel div:hover {
+    color: #0066FF;
+}
+#airPanel div:active {
+    font-size: 16px;
+}
+
+#airPanel div .span1 {position: absolute; top: 66px; left: 66px;}
+#airPanel div .span2 {position: absolute; top: 38px; left: 39px;}
+#airPanel div .span3 {position: absolute; top: 66px; left: 11px;}
+#airPanel div .span4 {position: absolute; top: 39px; left: 37px;}
+#airPanel div.center {text-align: center; line-height: 100px;}
+#airPanel div .span6 {position: absolute; top: 38px; left: 40px;}
+#airPanel div .span7 {position: absolute; top: 11px; left: 65px;}
+#airPanel div .span8 {position: absolute; top: 40px; left: 38px;}
+#airPanel div .span9 {position: absolute; top: 11px; left: 10px;}
+.add-icon, .decrease-icon {
+    width: 64px;
+    height: 64px;
+    display: inline-block;
+    background: url('../images/ic_add@2x.png') no-repeat;
+    background-size: contain;
+    cursor: pointer;
+}
+.add-icon:hover{
+    background: url('../images/ic_add_selected@2x.png') no-repeat;
+    background-size: contain;
+}
+.decrease-icon{
+    background: url('../images/ic_subtract@2x.png') no-repeat;
+    margin-top: 4px;
+    background-size: contain;
+}
+.decrease-icon:hover{
+    background: url('../images/ic_subtract_selected@2x.png') no-repeat;
+    background-size: contain;
+}
+.content{
+    display: flex;
+}
+.zoom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
