@@ -102,7 +102,7 @@ export default {
         "a b c"
         "d e f"
         "g h i";
-    background: url('/snowyzxpui/ic_control@2x.png') no-repeat;
+    background: url('../../../src/images/ic_control@2x.png') no-repeat;
     background-size: 100% 100%;
     grid-template-columns: 92px 91px 91px;
     grid-template-rows: 91px 91px 91px;
@@ -133,21 +133,21 @@ export default {
     width: 64px;
     height: 64px;
     display: inline-block;
-    background: url('/snowyzxpui/ic_add@2x.png') no-repeat;
+    background: url('../../../src/images/ic_add@2x.png') no-repeat;
     background-size: contain;
     cursor: pointer;
 }
 .add-icon:hover{
-    background: url('/snowyzxpui/ic_add_selected@2x.png') no-repeat;
+    background: url('../../../src/images/ic_add_selected@2x.png') no-repeat;
     background-size: contain;
 }
 .decrease-icon{
-    background: url('/snowyzxpui/ic_subtract@2x.png') no-repeat;
+    background: url('../../../src/images/ic_subtract@2x.png') no-repeat;
     margin-top: 4px;
     background-size: contain;
 }
 .decrease-icon:hover{
-    background: url('/snowyzxpui/ic_subtract_selected@2x.png') no-repeat;
+    background: url('../../../src/images/ic_subtract_selected@2x.png') no-repeat;
     background-size: contain;
 }
 .content{
