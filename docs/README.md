@@ -11,8 +11,8 @@ npm i snowy-zxp-ui -S
 ```javascript
 //全部引入
 import 'snowy-zxp-ui/dist/css/index.css';
-import RUI from 'snowy-zxp-ui'
-Vue.use(RUI)
+import SUI from 'snowy-zxp-ui'
+Vue.use(SUI)
 
 //按需引入
 import 'snowy-zxp-ui/dist/css/card.css'
