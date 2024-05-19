@@ -6,7 +6,7 @@
 
 ### 代码
 ```html
-<m-card imgSrc="/test.png" summary="这是简介啊这是汉堡简介" />
+<m-card imgSrc="/snowyzxpui/test.png" summary="这是简介啊这是汉堡简介" />
 ```
 
 #### Attributes
